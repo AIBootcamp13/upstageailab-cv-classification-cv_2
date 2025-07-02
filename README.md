@@ -3,23 +3,24 @@
 
 ## 🚀 프로젝트 구조
 
-
+```text
 doc-classifier/
-├── checkpoints/         # 훈련된 모델 가중치
-├── config/              # 설정 파일 (config.yaml)
-├── data/                # 데이터셋 및 증강 코드
-├── inference/           # 추론 로직
-├── logs/                # 훈련 로그
-├── models/              # 모델 아키텍처
-├── notebooks/           # EDA 및 분석 노트북
-├── outputs/             # 예측 결과
-├── trainer/             # 훈련 로직
-├── utils/               # 유틸리티 함수 (메트릭, 시각화)
-├── predict.py           # 추론 스크립트
-├── README.md            # 프로젝트 문서
-├── environment.yml      # Conda 환경 설정 파일 (권장)
-├── requirements.txt     # Pip 요구사항 파일
-└── train.py             # 훈련 스크립트
+├── checkpoints/        # 훈련된 모델 가중치
+├── config/             # 설정 파일 (config.yaml)
+├── data/               # 데이터셋 및 증강 코드
+├── inference/          # 추론 로직
+├── logs/               # 훈련 로그
+├── models/             # 모델 아키텍처
+├── notebooks/          # EDA 및 분석 노트북
+├── outputs/            # 예측 결과
+├── trainer/            # 훈련 로직
+├── utils/              # 유틸리티 함수 (메트릭, 시각화)
+├── predict.py          # 추론 스크립트
+├── README.md           # 프로젝트 문서
+├── environment.yml     # Conda 환경 설정 파일 (권장)
+├── requirements.txt    # Pip 요구사항 파일
+└── train.py            # 훈련 스크립트
+```
 
 
 ## ⚙️ 설치 및 환경 설정
@@ -76,7 +77,7 @@ Conda를 사용하지 않는 환경에서는 `pip`을 사용하여 Python 패키
 
 ```bash
 # (doc-classifier-env)
-jupyter lab notebooks/01_EDA.ipynb
+jupyter lab notebooks/02_EDA_KOR.ipynb
 
 3. 모델 훈련
 다음 명령어로 모델 훈련을 시작합니다. 훈련 로그는 logs/ 디렉토리에, 모델 가중치는 checkpoints/ 디렉토리에 저장됩니다.
