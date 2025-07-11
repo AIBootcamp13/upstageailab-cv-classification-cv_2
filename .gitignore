@@ -79,20 +79,23 @@ wandb/sweep-*/
 !wandb/settings
 
 # documentation
-docs/
+# docs/*
 
-#data
-data/dataset/meta.csv
-data/dataset/train.csv
-data/dataset/test.csv
+# Data files
+data/*/*/*
+data/dataset/
+
+
+# Config files - ignore all except main config.yaml
+
+
+configs/*copy*.yaml
+
 
 # Backup and copy files
-config/config copy.yaml
-config/config-efficient-net.yaml
 data/augmentation copy.py
 data/augmentations2.py
 data/augmentations_improved.py
-config/config copy 2.yaml
 
 # Output directories
 outputs/
@@ -100,3 +103,5 @@ outputs/
 # Development requirements and submissions
 requirements-dev.txt
 submission.csv
+# Keep .py files under src/data
+!src/data/*.py
