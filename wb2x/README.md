@@ -219,7 +219,7 @@ document-classifier/
 - **팀 점수**: 0.9598 (95.98%)
 - **개인 최고 점수**: 0.9348 (Private) / 0.9286 (Final)
 
-<img src="https://github.com/AIBootcamp13/upstageailab-cv-classification-cv_2/blob/wb2x/wb2x/docs/images/leaderboard/leaderboard(public)_snippet.png" width="600" alt="리더보드 상위 3팀 결과">
+<img src="https://github.com/AIBootcamp13/upstageailab-cv-classification-cv_2/blob/wb2x/wb2x/docs/images/leaderboard/leaderboard(public)_snippet.png" width="auto" alt="리더보드 상위 3팀 결과">
 
 **성능 개선 과정**:
 - **초기 베이스라인**: 79% 테스트 정확도
